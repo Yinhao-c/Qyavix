@@ -43,6 +43,7 @@ I would recommend using SvelteCore.js because it is very small.
 
   r(App, document.getElementById('root'));
 </script>
+```
 
 ---
 
