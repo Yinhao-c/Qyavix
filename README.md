@@ -47,6 +47,47 @@ I would recommend using SvelteCore.js because it is very small.
 
 ---
 
-## 🌟 Optional improvements
+🌟 Optional improvements
+	•	You can rename the global object s to any character you like; s is just a minimal placeholder for SvelteCore in the code.
+	•	All rendered DOM elements still include dataset.framework='SvelteCore' for identification.
+	•	This setup supports multiple state keys and multiple components rendered into different DOM nodes.
 
-You can change the SvelteCore in the code to the character you want to set, because here for the purpose of copyright declaration, the default here is: SvelteCore
+---
+
+## 📚 Contributing
+
+We welcome contributions! You can:
+	•	Add new demos in examples/
+	•	Extend SvelteCore with hooks, routing, or multi-component support
+	•	Improve documentation in docs/
+
+How to contribute:
+	1.	Fork this repository
+	2.	Create a new branch (git checkout -b feature-name)
+	3.	Commit your changes (git commit -am 'Add feature')
+	4.	Push to the branch (git push origin feature-name)
+	5.	Open a Pull Request
+
+---
+
+## 📝 Roadmap / Future Plans
+	•	Support for multiple states
+	•	Component composition
+	•	Simple routing system
+	•	Event system and lifecycle hooks
+	•	More example projects
+
+ ---
+
+ ## ❓ FAQ
+
+Q: Can I use SvelteCore in production?
+A: Yes, for small projects or prototypes. For large-scale apps, consider full frameworks.
+
+Q: Does it support multiple components?
+A: Yes, using different state keys and r() can render multiple components independently.
+
+Q: Do I need build tools?
+A: No. SvelteCore works directly in the browser as an ES module.
+
+
