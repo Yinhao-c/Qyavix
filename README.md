@@ -44,3 +44,8 @@ I would recommend using SvelteCore.js because it is very small.
   r(App, document.getElementById('root'));
 </script>
 
+---
+
+## 🌟 Optional improvements
+
+You can change the SvelteCore in the code to the character you want to set, because here for the purpose of copyright declaration, the default here is: SvelteCore
