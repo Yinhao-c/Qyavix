@@ -5,6 +5,8 @@ Implemented in ~10 lines of JavaScript, it offers state management and automatic
 
 Designed for developers who love minimalism, want rapid prototyping, or are learning front-end framework principles.
 
+💡Tip: SvelteCore_Enhancement.js, this file is not as small as the first generation, but it is more practical than the first generation.
+
 ---
 
 ## 🚀 Features
