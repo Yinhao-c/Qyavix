@@ -1,0 +1,22 @@
+# Node modules (if you ever add npm packages)
+node_modules/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# VS Code settings
+.vscode/
+
+# Build output (if any)
+dist/
+build/
+
+# OS generated files
+Thumbs.db
