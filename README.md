@@ -5,6 +5,8 @@ Implemented in ~10 lines of JavaScript, it provides state management and automat
 
 Designed for developers who enjoy minimalism, want rapid prototyping, or are learning front-end framework principles.
 
+You can call the website I have built: https://cdn.sveltecore.cyh.us.kg/SvelteCore.js. The URL may be invalid. I suggest you test it in advance.
+
 ---
 
 ## 🚀 Features
