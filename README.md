@@ -47,26 +47,10 @@ I would recommend using SvelteCore.js because it is very small.
 
 ---
 
-🌟 Optional improvements
+## 🌟 Optional improvements
 	•	You can rename the global object s to any character you like; s is just a minimal placeholder for SvelteCore in the code.
 	•	All rendered DOM elements still include dataset.framework='SvelteCore' for identification.
 	•	This setup supports multiple state keys and multiple components rendered into different DOM nodes.
-
----
-
-## 📚 Contributing
-
-We welcome contributions! You can:
-	•	Add new demos in examples/
-	•	Extend SvelteCore with hooks, routing, or multi-component support
-	•	Improve documentation in docs/
-
-How to contribute:
-	1.	Fork this repository
-	2.	Create a new branch (git checkout -b feature-name)
-	3.	Commit your changes (git commit -am 'Add feature')
-	4.	Push to the branch (git push origin feature-name)
-	5.	Open a Pull Request
 
 ---
 
