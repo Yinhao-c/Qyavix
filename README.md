@@ -7,6 +7,8 @@ Designed for developers who love minimalism, want rapid prototyping, or are lear
 
 💡Tip: SvelteCore_Enhancement.js, this file is not as small as the first generation, but it is more practical than the first generation.
 
+I would recommend using SvelteCore.js because it is very small.
+
 ---
 
 ## 🚀 Features
