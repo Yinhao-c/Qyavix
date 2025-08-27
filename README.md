@@ -48,9 +48,10 @@ Designed for developers who enjoy minimalism, want rapid prototyping, or are lea
 Rendering 100,000 elements with **Qyavix** 🚀
 
 Test Environment: iPad Pro 2024, iOS 18.6.2, Safari
+
 JS + DOM Fastest Time: 16.000 ms (Only the best results)
 
-![Speed Test](assets/Speed_Test_v3.jpg)
+![Speed Test](assets/Speed_Test_v3.jpeg)
 
 ---
 
