@@ -82,4 +82,10 @@ A: Yes, using different state keys and r() can render multiple components indepe
 Q: Do I need build tools?
 A: No. SvelteCore works directly in the browser as an ES module.
 
+---
+
+## ⚠️ Disclaimer
+
+SvelteCore is an independent project and is NOT affiliated with or endorsed by the official Svelte framework. 
+The name "Svelte" is used to convey that this framework is slim, lightweight, and elegant.
 
