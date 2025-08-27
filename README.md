@@ -45,6 +45,17 @@ You can call the website I have built: https://cdn.sveltecore.cyh.us.kg/SvelteCo
 
 ---
 
+## ⚡️ Benchmark
+
+Rendering 100,000 elements with **SvelteCore** 🚀
+
+JS + DOM Fastest Time: 53.000 ms
+Render 100,000 DOM Elements
+
+![Speed Test](assets/Speed_test.jpg)
+
+---
+
 ## 🌟 Optional improvements
 	•	You can rename the global object s to any character you like; s is just a minimal placeholder for SvelteCore in the code.
 	•	All rendered DOM elements still include dataset.framework='SvelteCore' for identification.
