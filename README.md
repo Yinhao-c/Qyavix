@@ -47,9 +47,9 @@ Designed for developers who enjoy minimalism, want rapid prototyping, or are lea
 
 Rendering 100,000 elements with **Qyavix** 🚀
 
-JS + DOM Fastest Time: 53.000 ms
+JS + DOM Fastest Time: 25.000 ms (Only the best results)
 
-![Speed Test](assets/Speed_Test.jpg)
+![Speed Test](assets/Speed_Test_v2.jpg)
 
 ---
 
