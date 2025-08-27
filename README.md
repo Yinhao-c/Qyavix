@@ -1,6 +1,6 @@
-# SvelteCore
+# Sveltecore
 
-🌱 **SvelteCore** — A very small and simple front-end framework.  
+🌱 **Sveltecore** — A very small and simple front-end framework.  
 Implemented in ~10 lines of JavaScript, it provides state management and automatic rendering similar to React or Svelte.  
 
 Designed for developers who enjoy minimalism, want rapid prototyping, or are learning front-end framework principles.
@@ -89,6 +89,6 @@ A: No. SvelteCore works directly in the browser as an ES module.
 
 ## ⚠️ Disclaimer
 
-SvelteCore is an independent project and is NOT affiliated with or endorsed by the official Svelte framework. 
+Sveltecore is an independent project and is NOT affiliated with or endorsed by the official Svelte framework. 
 The name "Svelte" is used to convey that this framework is slim, lightweight, and elegant.
 
