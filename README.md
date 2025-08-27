@@ -5,8 +5,6 @@ Implemented in ~10 lines of JavaScript, it provides state management and automat
 
 Designed for developers who enjoy minimalism, want rapid prototyping, or are learning front-end framework principles.
 
-You can call the website I have built: https://cdn.sveltecore.cyh.us.kg/SvelteCore.js. The URL may be invalid. I suggest you test it in advance.
-
 ⚠️ Disclaimer: This project is independent and NOT affiliated with the official Svelte framework.
 The name "Svelte" is used to convey that this framework is slim, lightweight, and elegant.
 
@@ -21,7 +19,7 @@ The name "Svelte" is used to convey that this framework is slim, lightweight, an
   - `r(Component, Root)` → render a component to the DOM  
 - 🔥 **Zero dependencies**: Works directly in the browser  
 - 🌍 **Extensible**: Can add routing, hooks, or multi-component support  
-- 🎯 **Unique identity**: All rendered DOM elements include `dataset.framework='SvelteCore'`  
+- 🎯 **Unique identity**: All rendered DOM elements include `dataset.framework='Sveltecore'`  
 - 💡 **Educational**: Learn how front-end frameworks work under the hood  
 - 🧪 **Experimental playground**: Ideal for experimenting with framework ideas  
 
