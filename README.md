@@ -7,6 +7,9 @@ Designed for developers who enjoy minimalism, want rapid prototyping, or are lea
 
 You can call the website I have built: https://cdn.sveltecore.cyh.us.kg/SvelteCore.js. The URL may be invalid. I suggest you test it in advance.
 
+⚠️ Disclaimer: This project is independent and NOT affiliated with the official Svelte framework.
+The name "Svelte" is used to convey that this framework is slim, lightweight, and elegant.
+
 ---
 
 ## 🚀 Features
