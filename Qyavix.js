@@ -6,5 +6,5 @@ export const u = i => (
 );
 
 export const r = (C, R) => (
-  (Qyavix[1] = () => (R.innerHTML = '', R.appendChild(C()), R.dataset.framework='Qyavix')), Qyavix[1]()
+  (Qyavix[1] = () => (R.replaceChildren(C()), R.dataset.framework = 'Qyavix')), Qyavix[1]()
 );
