@@ -5,9 +5,6 @@ Implemented in ~10 lines of JavaScript, it provides state management and automat
 
 Designed for developers who enjoy minimalism, want rapid prototyping, or are learning front-end framework principles.
 
-⚠️ Disclaimer: This project is independent and NOT affiliated with the official Svelte framework.
-The name "Svelte" is used to convey that this framework is slim, lightweight, and elegant.
-
 ---
 
 ## 🚀 Features
@@ -87,6 +84,4 @@ A: No. Qyavix works directly in the browser as an ES module.
 
 ## ⚠️ Disclaimer
 
-Qyavix is an independent project and is NOT affiliated with or endorsed by the official Svelte framework. 
-The name "Svelte" is used to convey that this framework is slim, lightweight, and elegant.
-
+Qyavix is an independent project and NOT affiliated with any other framework or brand.
