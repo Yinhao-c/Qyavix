@@ -49,7 +49,7 @@ Rendering 100,000 elements with **Qyavix** 🚀
 
 JS + DOM Fastest Time: 53.000 ms
 
-![Speed Test](assets/Speed_test.jpg)
+![Speed Test](assets/Speed_Test.jpg)
 
 ---
 
