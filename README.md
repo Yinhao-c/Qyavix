@@ -1,3 +1,4 @@
+![logo](assets/Qyavix_logo.png)
 # Qyavix
 
 🌱 **Qyavix** — A very small and simple front-end framework.  
