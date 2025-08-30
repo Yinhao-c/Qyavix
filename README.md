@@ -1,5 +1,9 @@
 
-# Qyavix
+<p align="center">
+  <img src="Qyavix_logo.png" alt="Project Logo" width="180"/>
+</p>
+
+#Qyavix
 
 🌱 **Qyavix** — A very small and simple front-end framework.  
 Implemented in ~10 lines of JavaScript, it provides state management and automatic rendering similar to React or Svelte.  
