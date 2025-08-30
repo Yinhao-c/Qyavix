@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="Qyavix_logo.png" alt="Project Logo" width="180"/>
+  <img src="assets/Qyavix_logo.png" alt="Project Logo" width="180"/>
 </p>
 
 #Qyavix
