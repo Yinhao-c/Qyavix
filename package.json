@@ -1,0 +1,25 @@
+{
+  "name": "qyavix",
+  "version": "1.0.1",
+  "description": "Qyavix - The minimalist JavaScript rendering library with ultra-fast initial performance in under 10 lines of code.",
+  "main": "qyavix.js",
+  "keywords": [
+    "javascript",
+    "rendering",
+    "framework",
+    "minimal",
+    "fast",
+    "frontend",
+    "ui"
+  ],
+  "author": "Yinhao Chen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yinhao-c/Qyavix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yinhao-c/Qyavix/issues"
+  },
+  "homepage": "https://github.com/Yinhao-c/Qyavix#readme"
+}
