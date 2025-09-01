@@ -9,6 +9,14 @@ Designed for developers who enjoy minimalism, want rapid prototyping, or are lea
 
 ---
 
+## Installation
+
+```bash
+npm install qyavix
+```
+
+---
+
 ## 🚀 Features
 
 - 📦 **Ultra-lightweight**: Core logic under 10 lines  
