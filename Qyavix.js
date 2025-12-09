@@ -1,10 +1,8 @@
-let Qyavix = [];
+let h = [], i, R;
 
-export const u = i => (
-  Qyavix[0] = Qyavix[0] ?? i,
-  [Qyavix[0], v => (Qyavix[0] = typeof v === 'function' ? v(Qyavix[0]) : v, Qyavix[1]())]
-);
+export const u = v => {
+  let k = i++;
+  return [h[k] ??= v, n => (h[k] = n?.call ? n(h[k]) : n, R())];
+};
 
-export const r = (C, R) => (
-  (Qyavix[1] = () => (R.replaceChildren(C()), R.dataset.framework = 'Qyavix')), Qyavix[1]()
-);
+export const r = (C, e) => (R = () => (i = 0, e.replaceChildren(C())), R());
