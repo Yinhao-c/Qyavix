@@ -63,6 +63,10 @@ JS + DOM Fastest Time: 27.000 ms (Only the best results)
 
 ![Speed Test](assets/Speed_Test_v2.0.jpeg)
 
+Note:
+This version introduces several new capabilities — including multiple state slots, full component re-execution, and a hook-based rendering cycle. These additions may slightly reduce raw rendering speed compared to earlier builds.
+If you prefer the previous performance profile, you can use the legacy version at: /Version/Qyavix_v1.1.js
+
 ---
 
 ## 🌟 Optional improvements
