@@ -67,6 +67,13 @@ Note:
 This version introduces several new capabilities — including multiple state slots, full component re-execution, and a hook-based rendering cycle. These additions may slightly reduce raw rendering speed compared to earlier builds.
 If you prefer the previous performance profile, you can use the legacy version at: /Version/Qyavix_v1.1.js
 
+Run a live DOM rendering performance test powered by **Qyavix**:
+
+[![Benchmark](https://img.shields.io/badge/Benchmark-Qyavix-blue)](https://qyavix-dom.pages.dev)  
+**Try it now:** 👉 [https://qyavix-dom.pages.dev](https://qyavix-dom.pages.dev)
+
+> A lightweight micro-framework benchmark — instant DOM stress test (10k / 100k elements).
+
 ---
 
 ## 🌟 Optional improvements
