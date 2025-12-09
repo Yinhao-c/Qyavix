@@ -48,7 +48,7 @@
     function BigList(N) {
       return () => {
         const wrapper = document.createElement('div');
-        // 使用 DocumentFragment 批量插入以提高效率
+        
         const frag = document.createDocumentFragment();
         for (let j = 0; j < N; j++) {
           const p = document.createElement('p');
