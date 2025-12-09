@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Qyavix JS Performance Test</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 24px; color: #111; }
+    h1 { margin: 0 0 8px 0; font-size: 22px; }
+    .subtitle { color: #666; margin-bottom: 16px; }
+    #panel {
+      border: 1px solid #ddd;
+      padding: 12px;
+      height: 440px;
+      overflow: auto;
+      background: #fff;
+    }
+    p.item { margin: 2px 0; font-size: 14px; }
+    #footer { margin-top: 18px; font-weight: 700; }
+    .powered { margin-top: 28px; color: #666; font-size: 13px; }
+    a.repo { color: #2563eb; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>Qyavix JS Performance Test</h1>
+  <div class="subtitle">High-precision JS + DOM rendering test using only Qyavix.js</div>
+
+  <div id="panel">
+    <div id="root"></div>
+  </div>
+
+  <div id="footer">JS + DOM Time: <span id="time">—</span> ms</div>
+
+  <div class="powered">
+    Powered by Qyavix JS. GitHub: <a class="repo" href="https://github.com/Yinhao-c/Qyavix" target="_blank" rel="noopener">https://github.com/Yinhao-c/Qyavix</a>
+  </div>
+
+  <script type="module">
+    
+    let h = [], i, R;
+
+    const u = v => {
+      let k = i++;
+      return [ h[k] ??= v, n => (h[k] = n?.call ? n(h[k]) : n, R()) ];
+    };
+
+    const r = (C, e) => ( R = () => ( i = 0, e.replaceChildren(C()), undefined ), R() );
+
+    function BigList(N) {
+      return () => {
+        const wrapper = document.createElement('div');
+        // 使用 DocumentFragment 批量插入以提高效率
+        const frag = document.createDocumentFragment();
+        for (let j = 0; j < N; j++) {
+          const p = document.createElement('p');
+          p.className = 'item';
+          p.textContent = `Item ${j} - Count 0`;
+          frag.appendChild(p);
+        }
+        wrapper.appendChild(frag);
+        return wrapper;
+      };
+    }
+    
+    (function run() {
+      const N = 100000;
+      const root = document.getElementById('root');
+      const comp = BigList(N);
+
+      const t0 = performance.now();
+      r(comp, root);
+      const t1 = performance.now();
+      const elapsed = (t1 - t0).toFixed(3);
+
+      document.getElementById('time').textContent = elapsed;
+      console.log(`Rendered ${N} items in ${elapsed} ms`);
+    })();
+  </script>
+</body>
+</html>
