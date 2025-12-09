@@ -59,9 +59,9 @@ Rendering 100,000 elements with **Qyavix** 🚀
 
 Test results may vary depending on the device
 
-JS + DOM Fastest Time: 16.000 ms (Only the best results)
+JS + DOM Fastest Time: 27.000 ms (Only the best results)
 
-![Speed Test](assets/Speed_Test_v3.jpeg)
+![Speed Test](assets/Speed_Test_v2.0.jpeg)
 
 ---
 
