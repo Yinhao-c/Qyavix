@@ -81,6 +81,9 @@ Run a live DOM rendering performance test powered by **Qyavix**:
 
 > A lightweight micro-framework benchmark — instant DOM stress test (10k / 100k elements).
 
+>If the demo loads slowly when opened from the README link, this is often caused by Low Power Mode, which can throttle JavaScript execution and network performance.
+After disabling Low Power Mode, the page typically loads at normal speed depending on your device capabilities.
+
 ---
 
 ## 🌟 Optional improvements
