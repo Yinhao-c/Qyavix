@@ -60,6 +60,82 @@ npm install qyavix
 
 ---
 
+## 🔥 Qyavix Performance Report
+
+This section summarizes the current performance characteristics of **Qyavix**, based on  
+initial measurements and JS Framework Benchmark–style behavior.
+
+Qyavix is designed to be a **minimal, hook-based reactive renderer** with extremely small
+overhead. Even without diffing or virtual DOM layers, it achieves strong performance in
+initial render speed and simple update patterns.
+
+---
+
+## ⚡ Initial Render Performance (1,000 rows)
+
+[Qyavix_JS_Framework_Benchmark_Test_p1]assets/Qyavix_JS_Framework_Benchmark_page1.png
+
+[Qyavix_JS_Framework_Benchmark_Test_p2]assets/Qyavix_JS_Framework_Benchmark_page2.png
+
+Qyavix completes the **1,000 row create test** in:
+
+- **123.1 ms** average (measured on Alienware m17 R5)
+
+This places Qyavix in a competitive position among lightweight frameworks.
+Given that many established libraries fall within the 90–250 ms range,  
+Qyavix performs well for its size (under 200 bytes).
+
+---
+
+## 🧪 About the Test
+
+This number comes from running a test equivalent to the JS Framework Benchmark’s
+“create 1,000 rows” scenario:
+
+- Build 1,000 table rows
+- Append them to the DOM in a single operation
+- Measure time from trigger → DOM painted
+
+Qyavix's rendering pipeline:
+
+- Minimal reconciliation
+- No virtual DOM layer
+- Direct DOM creation
+- Reset-on-render hook indexing
+
+This allows very fast initial render times.
+
+---
+
+## ⚠ Note on Scaling (100,000 DOM Elements)
+
+A separate extreme-scale test rendered **100,000 DOM elements**.
+
+This test is *not comparable* to the JS Framework Benchmark:
+- 100× more DOM nodes
+- Much higher layout and paint cost
+- Measures raw browser DOM limits, not framework design
+
+The official benchmark uses **1,000 rows**, not 100,000.
+
+---
+
+## 📊 Summary
+
+| Test | Qyavix Result | Notes |
+|------|---------------|-------|
+| Create 1,000 rows | **123.1 ms** | Competitive for its size |
+| Update (simple setter) | Instant | Direct state write + full refresh |
+| 100,000 DOM render | Heavy (expected) | Stress test, not benchmark |
+
+Qyavix performs particularly well in **initial render**  
+and small application scenarios where minimal overhead is critical.
+
+Further benchmark integration (full js-framework-benchmark suite)
+is planned for a future release.
+
+---
+
 ## ⚡️ Benchmark
 
 Rendering 100,000 elements with **Qyavix** 🚀
