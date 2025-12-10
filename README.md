@@ -7,6 +7,13 @@ Implemented in ~10 lines of JavaScript, it provides state management and automat
 
 Designed for developers who enjoy minimalism, want rapid prototyping, or are learning front-end framework principles.
 
+## Website
+
+The official website **https://qyavix.pages.dev** is fully rendered using Qyavix itself.  
+No frameworks, no virtual DOM, no external libraries — the entire page is powered only by the core `u` (state) and `r` (renderer) functions from Qyavix.
+
+This demonstrates how Qyavix can build real, production-ready UI with just a few lines of JavaScript.
+
 ---
 
 ## Installation
