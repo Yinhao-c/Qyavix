@@ -70,7 +70,7 @@ overhead. Even without diffing or virtual DOM layers, it achieves strong perform
 initial render speed and simple update patterns.
 
 The screenshot still shows the version number as v1.0.0, but that was my mistake — I forgot to update the text in the image.
-The actual framework used in the test is v2.0.1, and all test results are based on that updated version.
+The actual framework used in the test is v2.0.1, and all test results are based on that updated version.(v2.0.1)
 
 ---
 
