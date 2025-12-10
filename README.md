@@ -145,6 +145,12 @@ Rendering 100,000 elements with **Qyavix** 🚀
 
 Run a live DOM rendering performance test powered by **Qyavix**:
 
+This test measures only the initial creation of 100,000 DOM nodes using a single replaceChildren() call.
+In this scenario, almost all of the work is done by the browser’s native DOM engine, and Qyavix itself adds almost zero overhead.
+Depending on CPU frequency, thermal state, and background tasks, the time may vary between 20–80 ms, which is normal.
+
+This benchmark shows that Qyavix introduces no performance penalty over raw DOM operations, which is the intended design goal.
+
 [![Benchmark](https://img.shields.io/badge/Benchmark-Qyavix-blue)](https://qyavix-dom.pages.dev)  
 **Try it now:** 👉 [https://qyavix-dom.pages.dev](https://qyavix-dom.pages.dev)
 
