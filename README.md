@@ -73,9 +73,9 @@ initial render speed and simple update patterns.
 
 ## ⚡ Initial Render Performance (1,000 rows)
 
-[Qyavix_JS_Framework_Benchmark_Test_p1]assets/Qyavix_JS_Framework_Benchmark_page1.png
+![Qyavix_JS_Framework_Benchmark_Test_p1](assets/Qyavix_JS_Framework_Benchmark_page1.png)
 
-[Qyavix_JS_Framework_Benchmark_Test_p2]assets/Qyavix_JS_Framework_Benchmark_page2.png
+![Qyavix_JS_Framework_Benchmark_Test_p2](assets/Qyavix_JS_Framework_Benchmark_page2.png)
 
 Qyavix completes the **1,000 row create test** in:
 
